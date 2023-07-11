@@ -1,7 +1,13 @@
 This repository contains the code for the Python/Flask Codility task which Codility didn't seem to accept.
+
 There are PyTest tests that test the scenarios described in the task.
+
 Additionally, there is a [multi-stage](https://docs.docker.com/build/guide/multi-stage/) Dockerfile that creates a container that runs the tests, or runs the Flask server.
+
 The Docker container uses Python 3.8.5 and Flask 2.1.2 as specified in the Codility task.
+
+Please note that I mocked the save() function, since the described Codility save() function wasn't standard.
+
 
 Run the tests without using Docker
 =======
